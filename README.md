@@ -13,7 +13,7 @@ bunzip2 shape_predictor_68_face_landmarks.dat.bz2
 
 3. Camera Path or Index
 ```bash
-vi ~~~
+vi detecting_eyes.py
 ```
 ```python
 # default
@@ -28,7 +28,7 @@ cap = cv2.VideoCapture("/dev/video0")   # Linux
 
 4. run
 ```bash
-python3 ~~~
+python3 detecting_eyes.py
 ```
 
 ## About "68 facial landmark"
